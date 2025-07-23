@@ -1,11 +1,11 @@
 import java.util.Arrays;
 public class Main {
     public static void main(String[] args) {
-// задача 1
+        System.out.println("Задача 1");// задача 1
         int[] number = new int[]{1, 2, 3};
         double[] numbers = {1.57, 7.654, 9.986};
         boolean[] answers = {true, false, true};
-// задача 2
+        System.out.println("Задача 2");// задача 2
         for (int i = 0; i < number.length; i++) {
             if (i > 0) {
                 System.out.print(", ");        }
@@ -25,7 +25,7 @@ public class Main {
             }
         }
         System.out.println();
-// Задача 3
+        System.out.println("Задача 3");// Задача 3
         for (int i = number.length - 1; i >= 0; i--) {
             System.out.print(number[i]);
             if (i > 0) {
@@ -48,7 +48,7 @@ public class Main {
             }
         }
         System.out.println();
-// Задача 4
+        System.out.println("Задача 4");// Задача 4
         for (int i = 0; i < number.length; i++) {
             if (number[i] % 2 != 0) {
                 number[i] += 1;
